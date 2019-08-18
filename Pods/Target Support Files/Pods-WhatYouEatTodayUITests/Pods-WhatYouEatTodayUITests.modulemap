@@ -1,0 +1,6 @@
+framework module Pods_WhatYouEatTodayUITests {
+  umbrella header "Pods-WhatYouEatTodayUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
