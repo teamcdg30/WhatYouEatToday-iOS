@@ -11,6 +11,7 @@ target 'WhatYouEatToday' do
   pod 'SnapKit', '~> 5.0.0'
   pod 'Moya/ReactiveSwift', '~> 13.0'
   pod 'Kingfisher', '~> 5.0'
+  pod 'Firebase/Analytics'
   target 'WhatYouEatTodayTests' do
     inherit! :search_paths
     # Pods for testing

@@ -3,12 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1BB4698D16DA7BB7D946C950 /* Pods_WhatYouEatTodayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241C9AA117624D3B6B52E292 /* Pods_WhatYouEatTodayUITests.framework */; };
 		42F90681D119729D2B38861F /* Pods_WhatYouEatToday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B70EB415B9E6CA457211BC4C /* Pods_WhatYouEatToday.framework */; };
+		B1A2176823093AF000918CE3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1A2176723093AF000918CE3 /* GoogleService-Info.plist */; };
+		B1A2176B23093C0E00918CE3 /* ChoiceFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A2176923093C0E00918CE3 /* ChoiceFoodViewController.swift */; };
+		B1A2176C23093C0E00918CE3 /* ChoiceFoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1A2176A23093C0E00918CE3 /* ChoiceFoodViewController.xib */; };
 		B1EF044D22FFAF8000863534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF044C22FFAF8000863534 /* AppDelegate.swift */; };
 		B1EF044F22FFAF8000863534 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF044E22FFAF8000863534 /* ViewController.swift */; };
 		B1EF045222FFAF8000863534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1EF045022FFAF8000863534 /* Main.storyboard */; };
@@ -41,6 +44,9 @@
 		2E2398CF7E85D7A5BC24FACA /* Pods-WhatYouEatTodayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatYouEatTodayUITests.debug.xcconfig"; path = "Target Support Files/Pods-WhatYouEatTodayUITests/Pods-WhatYouEatTodayUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C1641BE01A9DDDB7BFAA87E /* Pods-WhatYouEatTodayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatYouEatTodayTests.release.xcconfig"; path = "Target Support Files/Pods-WhatYouEatTodayTests/Pods-WhatYouEatTodayTests.release.xcconfig"; sourceTree = "<group>"; };
 		B0E0A7648F539156E9B0BF49 /* Pods-WhatYouEatToday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatYouEatToday.release.xcconfig"; path = "Target Support Files/Pods-WhatYouEatToday/Pods-WhatYouEatToday.release.xcconfig"; sourceTree = "<group>"; };
+		B1A2176723093AF000918CE3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B1A2176923093C0E00918CE3 /* ChoiceFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceFoodViewController.swift; sourceTree = "<group>"; };
+		B1A2176A23093C0E00918CE3 /* ChoiceFoodViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChoiceFoodViewController.xib; sourceTree = "<group>"; };
 		B1EF044922FFAF8000863534 /* WhatYouEatToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatYouEatToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1EF044C22FFAF8000863534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1EF044E22FFAF8000863534 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +126,9 @@
 				B1EF045322FFAF8200863534 /* Assets.xcassets */,
 				B1EF045522FFAF8200863534 /* LaunchScreen.storyboard */,
 				B1EF045822FFAF8200863534 /* Info.plist */,
+				B1A2176723093AF000918CE3 /* GoogleService-Info.plist */,
+				B1A2176923093C0E00918CE3 /* ChoiceFoodViewController.swift */,
+				B1A2176A23093C0E00918CE3 /* ChoiceFoodViewController.xib */,
 			);
 			path = WhatYouEatToday;
 			sourceTree = "<group>";
@@ -152,7 +161,6 @@
 				2E2398CF7E85D7A5BC24FACA /* Pods-WhatYouEatTodayUITests.debug.xcconfig */,
 				E8EC6BBD95E10E05480DE499 /* Pods-WhatYouEatTodayUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -274,7 +282,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A2176C23093C0E00918CE3 /* ChoiceFoodViewController.xib in Resources */,
 				B1EF045722FFAF8200863534 /* LaunchScreen.storyboard in Resources */,
+				B1A2176823093AF000918CE3 /* GoogleService-Info.plist in Resources */,
 				B1EF045422FFAF8200863534 /* Assets.xcassets in Resources */,
 				B1EF045222FFAF8000863534 /* Main.storyboard in Resources */,
 			);
@@ -389,6 +399,7 @@
 			files = (
 				B1EF044F22FFAF8000863534 /* ViewController.swift in Sources */,
 				B1EF044D22FFAF8000863534 /* AppDelegate.swift in Sources */,
+				B1A2176B23093C0E00918CE3 /* ChoiceFoodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
